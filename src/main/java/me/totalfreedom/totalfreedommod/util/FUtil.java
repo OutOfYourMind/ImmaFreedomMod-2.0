@@ -835,7 +835,7 @@ public class FUtil
         {
             if (TotalFreedomMod.plugin.al.isAdmin(player))
             {
-                player.sendMessage("[" + ChatColor.AQUA + "ADMIN" + ChatColor.WHITE + "] " + ChatColor.DARK_RED + name + ": " + ChatColor.AQUA + message);
+                 player.sendMessage(colorize("&8[&fADMIN&8] &4" + name + ":&6 " + message));
             }
         }
     }
